@@ -24,7 +24,7 @@ $dbuser = 'root';			// 数据库用户名
 $dbpw = '123456';				// 数据库密码
 $dbname = 'ucenter';			// 数据库名
 $pconnect = 0;				// 数据库持久连接 0=关闭, 1=打开
-$tablepre = 'example_';   		// 表名前缀, 同一数据库安装多个论坛请修改此处
+$tablepre = 'uc';   		// 表名前缀, 同一数据库安装多个论坛请修改此处
 $dbcharset = 'utf8';			// MySQL 字符集, 可选 'gbk', 'big5', 'utf8', 'latin1', 留空为按照论坛字符集设定
 
 //同步登录 Cookie 设置
