@@ -16,7 +16,7 @@ define('UC_KEY', 'aaabbbccc');				// 与 UCenter 的通信密钥, 要与 UCenter
 define('UC_API', 'http://ucenter.rchangchu.com/uc_server');	// UCenter 的 URL 地址, 在调用头像时依赖此常量
 define('UC_CHARSET', 'utf8');				// UCenter 的字符集
 define('UC_IP', '127.0.01');					// UCenter 的 IP, 当 UC_CONNECT 为非 mysql 方式时, 并且当前应用服务器解析域名有问题时, 请设置此值
-define('UC_APPID', 1);					// 当前应用的 ID
+define('UC_APPID', 2);					// 当前应用的 ID
 
 //ucexample_2.php 用到的应用程序数据库连接参数
 $dbhost = '127.0.0.1';			// 数据库服务器
